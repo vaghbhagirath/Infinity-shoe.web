@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url(file:///C:/Users/Xtreme/Desktop/CODING/EXPERT/BACKKKKKKKKKKKKK.jpg);
+
+  }
+  .container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 10px;
+    background-color: #dacccc ;
+
+    
+  }
+  header {
+    background:#9e9595;
+    color: #0d0a0a;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #dacccc ;
+
+  }
+  .contact-info {
+    background: #fff;
+    padding: 125px;
+    margin-bottom: 20px;
+    background-image: url(file:///C:/Users/Xtreme/Desktop/CODING/EXPERT/BACKKKKKKKKKKKKK.jpg);
+
+   color: #dacccc ;
+
+    
+  }
+  .contact-info h2 {
+    margin-top: 0;
+  }
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    color: #b9b3b3 ;
+    
+
+
+  }
+  .social-icons li {
+    display: inline;
+    margin-right: 10px;
+  }
+  .social-icons a {
+    color: #333;
+    text-decoration: none;
+  }
+  .social-icons a:hover {
+    color: #c2c5c7;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px ;
+  }
+
+  .cd{
+    background-color: #dacccc ;
+    
+    margin: auto;
+
+    padding: 10px;
+    
+}
+
+
+.fab {
+    color: #C13584; /* Instagram brand color */
+    font-size: 24px; /* Size of the icon */
+  }
+
+
+  .pass{
+    font-size: small;
+    color: #0a0827;
+    margin: 12px;
+    text-shadow: black;
+    
+    font-weight: 900;
+    
+    
+
+}

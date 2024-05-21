@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .bg-image {
+    background-image: url('file:///C:/Users/Xtreme/Desktop/CODING/EXPERT/zooom.avif');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 1%;
+   margin: auto;
+   display: flex;
+   justify-items: center;
+   align-items: center;
+   height: 100vh;
+   
+  }
+  .forgot-password-container {
+    max-width: 300px;
+    margin: auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-image: url('C:\Users\Xtreme\Desktop\CODING\EXPERT/shoeess.png');
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .reset-btn {
+    background-color: rgba(51, 40, 40, 0.827);
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .reset-btn:hover {
+    opacity: 1;
+  }
+
+  .forgot{
+    font-weight: 400;
+    text-transform: uppercase;
+  }

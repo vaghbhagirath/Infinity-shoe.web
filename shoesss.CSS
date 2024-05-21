@@ -1,0 +1,374 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.body
+{
+	
+	background-image: url('file:///C:/Users/Xtreme/Desktop/CODING/EXPERT/orgg.jpg');
+
+	min-height: 100vh;
+}
+.bb{
+	font-size: xx-large;
+	font-weight: 900;
+	color: black;
+	
+}
+.card 
+{
+	position: relative;
+	width: 300px;
+	height: 380px;
+	background: #0000;
+	display: flex;
+	box-shadow: 0 15px 45px rgba(0,0,0,0.1);
+	overflow: hidden;
+	transition: 0.5s ease-in-out;
+	justify-items: flex-start;
+    align-items: flex-start;
+	padding: auto;
+	margin: 7%;
+
+	
+    
+}
+.card:hover 
+{
+	width: 600px;
+}
+.card .imgBx 
+{
+	position: relative;
+	min-width: 300px;
+	height: 100%;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+.card .imgBx  img 
+{
+	max-width: 250px;
+	transition: 0.5s ease-in-out;
+}
+.card:hover .imgBx  img 
+{
+	transform: rotate(-35deg) translateX(-20px);
+}
+.card .details 
+{
+	position: absolute;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	background:  #066f24;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-direction: column;
+	transition: 0.5s ease-in-out;
+}
+.card:hover .details 
+{
+	left: 300px;
+}
+.card .details::before 
+{
+	content: '';
+	position: absolute;
+	left: 0px;
+	width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #fff;
+	z-index: 1;
+}
+.card .details h3 
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+.card .details h3 span 
+{
+	font-size: 0.65em;
+	font-weight: 300;
+	opacity: 0.85;
+	text-transform: none;
+}
+.card .details h4 
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.9em;
+	line-height: 1em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+p 
+{
+	color: #fff;
+	font-size: 0.8em;
+	opacity: 0.85;
+}
+.size 
+{
+	display: flex;
+	gap: 10px;
+}
+.size li 
+{
+	list-style: none;
+	color: #fff;
+	font-size: 0.9em;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #fff;
+	cursor: pointer;
+	font-weight: 500;
+	opacity: 0.5;
+}
+.size li:hover 
+{
+	background: #fff;
+	color: #066f24;
+	opacity: 1;
+}
+.group 
+{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	align-items: center;
+}
+.card .details h2 
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 2em;
+}
+.card .details h2 sup 
+{
+	font-weight: 300;
+}
+.card .details h2 small 
+{
+	font-size: 0.75em;
+}
+.card .details a 
+{
+	display: inline-flex;
+	padding: 10px 25px;
+	background: #fff;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color:  #066f24;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.body-1
+{
+	padding: 40%;
+	margin-right: 90%;
+	background-image: url('file:///C:/Users/Xtreme/Desktop/CODING/EXPERT/orgg.jpg');
+	min-height: 100vh;
+}
+.card-1
+{
+	position: relative;
+	width: 300px;
+	height: 380px;
+	background: #0000;
+	display: flex;
+	box-shadow: 0 15px 45px rgba(0,0,0,0.1);
+	overflow: hidden;
+	transition: 0.5s ease-in-out;
+	justify-items: flex-start;
+    align-items: flex-start;
+	padding: auto;
+	margin: 7%;
+	
+    
+}
+.card-1:hover 
+{
+	width: 600px;
+}
+.card-1 .imgBx-1 
+{
+	position: relative;
+	min-width: 300px;
+	height: 100%;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+.card-1 .imgBx-1  img 
+{
+	max-width: 250px;
+	transition: 0.5s ease-in-out;
+}
+.card-1:hover .imgBx-1  img 
+{
+	transform: rotate(-35deg) translateX(-20px);
+}
+.card-1 .details-1 
+{
+	position: absolute;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	background:  #066f24;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-direction: column;
+	transition: 0.5s ease-in-out;
+}
+.card-1:hover .details-1 
+{
+	left: 300px;
+}
+.card-1 .details-1::before 
+{
+	content: '';
+	position: absolute;
+	left: 0px;
+	width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #fff;
+	z-index: 1;
+}
+.card-1 .details-1 h3 
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1.5em;
+	line-height: 1em;
+}
+.card-1 .details-1 h3 span 
+{
+	font-size: 0.65em;
+	font-weight: 300;
+	opacity: 0.85;
+	text-transform: none;
+}
+.card-1 .details-1 h4 
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.9em;
+	line-height: 1em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+p 
+{
+	color: #fff;
+	font-size: 0.8em;
+	opacity: 0.85;
+}
+.size-1 
+{
+	display: flex;
+	gap: 10px;
+}
+.size-1 li 
+{
+	list-style: none;
+	color: #fff;
+	font-size: 0.9em;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #fff;
+	cursor: pointer;
+	font-weight: 500;
+	opacity: 0.5;
+}
+.size-1 li:hover 
+{
+	background: #fff;
+	color: #066f24;
+	opacity: 1;
+}
+.group-1 
+{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	align-items: center;
+}
+.card-1 .details-1 h2 
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 2em;
+}
+.card-1 .details-1 h2 sup 
+{
+	font-weight: 300;
+}
+.card-1 .details-1 h2 small 
+{
+	font-size: 0.75em;
+}
+.card-1 .details-1 a 
+{
+	display: inline-flex;
+	padding: 10px 25px;
+	background: #fff;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #066f24;
+}

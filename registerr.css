@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    margin: 0%;
+    background: url('file:///C:/Users/Xtreme/Desktop/CODING/EXPERT/zooom.avif') ;
+  }
+  .bg-image {
+   
+    background-size: cover;
+    background-position: center;  
+    height: 100%;
+    padding: 1%;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+   
+  }
+  .register-container {
+    max-width: 370px;
+    margin: auto;
+    padding: 50px;
+    background: rgba(51, 40, 40, 0.827);
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: url('file:///C:/Users/Xtreme/Desktop/CODING/EXPERT/zooom.avif') no-repeat center center #505050;
+  }
+  input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgba(51, 40, 40, 0.827);
+  }
+  input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color:rgba(51, 40, 40, 0.827);
+   
+    
+    border: 2px;
+    
+   
+    color: white;
+  }
+  .register-btn {
+    background-color:rgba(51, 40, 40, 0.827);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .register-btn:hover {
+    opacity: 1;
+  }
+.active{
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+.pass{
+    color: aliceblue;
+}
+
+.new{
+    color: aliceblue;
+    background-color: rgba(51, 40, 40, 0.827) ;
+}

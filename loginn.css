@@ -1,0 +1,119 @@
+/* Reset default styles */
+* {
+    margin: 80;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #bc9898;
+    color: #0a0827;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-image: url('file:///C:/Users/Xtreme/Desktop/CODING/EXPERT/zooom.avif');
+   
+    background-size: cover;
+    
+    height: 100%;
+}
+
+/* Login container styles */
+.login-container {
+    border-radius: 50px;
+    max-width: 470px;
+    position: relative;
+    height: 560px;
+    width: 405px;
+    margin: auto;
+    padding: 55px;
+    background: url('file:///C:/Users/Xtreme/Desktop/CODING/EXPERT/zooom.avif') no-repeat center center #505050;
+    background-size: cover;
+    box-shadow: 0px 30px 60px -5px #000;
+    
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form styles */
+form {
+    padding-top: 35px;
+}
+
+/* Active and nonactive headings */
+.active {
+    border-bottom: 2px solid #121416;
+}
+
+
+
+/* Other styles */
+h2 {
+    padding-left: 12px;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 11px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.span {
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.4;
+    display: inline-block;
+    position: relative;
+    top: -65px;
+    transition: all 0.5s ease-in-out;
+}
+
+.text {
+    border: 2px;
+    margin: 3%;
+    width: 90%;
+    padding: 20px 20px;
+    display: block;
+    height: 25px;
+    color: white;
+   
+    font-size: 14px;
+   
+    background: rgba(51, 40, 40, 0.827);
+   
+}
+
+.pass{
+    font-size: small;
+    color: #0a0827;
+    margin: 12px;
+    text-shadow: black;
+    font-size: 17px;
+    font-weight: 900;
+    
+    
+
+}
+
+.signin-button{
+    font-size: medium;
+    color: #dddce9;
+    margin: 12px;
+    text-shadow: black;
+    font-size: 17px;
+    padding: 4px;
+    margin: 2px;
+    background-color:rgba(51, 40, 40, 0.827) ;
+
+}
+
+
+
+
+
+
+
+
+
